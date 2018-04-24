@@ -17,5 +17,6 @@ function deepestChild() {
   const firstLevel=document.querySelector('div#grand-node');
   const secondLevel=firstLevel.querySelector('div');
   const thirdLevel=secondLevel.querySelector('div');
-  return thirdLevel;
+  const fourthLevel=thirdLevel.querySelector('div');
+  return fourthLevel;
 }
