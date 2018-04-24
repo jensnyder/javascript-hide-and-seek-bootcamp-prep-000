@@ -18,5 +18,6 @@ function deepestChild() {
   const secondLevel=firstLevel.querySelector('div');
   const thirdLevel=secondLevel.querySelector('div');
   const fourthLevel=thirdLevel.querySelector('div');
-  return fourthLevel;
+  const fifthLevel=fourthLevel.querySelector('div');
+  return fifthLevel;
 }
